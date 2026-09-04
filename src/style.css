@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Glass Antiqua', serif;
+  --font-mono-space: 'Space Mono', monospace;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* slate-950 */
+  border-left: 1px solid rgba(34, 211, 238, 0.1); /* subtle cyan border */
+}
+
+::-webkit-scrollbar-thumb {
+  /* Gradient from Cyan to Purple */
+  background: linear-gradient(to bottom, #22d3ee, #c084fc); 
+  border-radius: 10px;
+  border: 2px solid #020617; /* Creates a padded look */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22d3ee;
+  box-shadow: 0 0 10px #22d3ee;
+}
+
+body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="%2322d3ee" stroke-width="1.5" stroke-dasharray="3 4"/><circle cx="16" cy="16" r="7" fill="%2322d3ee" opacity="0.4"/><circle cx="16" cy="16" r="3" fill="%2322d3ee"/></svg>') 16 16, auto;
+}
+
+a, button, NuxtLink, [role="button"] {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="%23c084fc" stroke-width="2"/><circle cx="16" cy="16" r="8" fill="%23c084fc" opacity="0.6"/><circle cx="16" cy="16" r="3" fill="%23ffffff"/><path d="M16 0v4M16 28v4M0 16h4M28 16h4" stroke="%23c084fc" stroke-width="2"/></svg>') 16 16, pointer !important;
+}
