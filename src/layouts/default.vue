@@ -18,17 +18,17 @@ const closeMenu = () => {
   if (isMenuOpen.value) isMenuOpen.value = false
 }
 
-// Theme toggling logic
-const toggleTheme = () => {
-  isDarkMode.value = !isDarkMode.value
-  if (isDarkMode.value) {
-    document.documentElement.classList.remove('light-mode')
-    localStorage.setItem('theme', 'dark')
-  } else {
-    document.documentElement.classList.add('light-mode')
-    localStorage.setItem('theme', 'light')
-  }
-}
+// // Theme toggling logic
+// const toggleTheme = () => {
+//   isDarkMode.value = !isDarkMode.value
+//   if (isDarkMode.value) {
+//     document.documentElement.classList.remove('light-mode')
+//     localStorage.setItem('theme', 'dark')
+//   } else {
+//     document.documentElement.classList.add('light-mode')
+//     localStorage.setItem('theme', 'light')
+//   }
+// }
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
