@@ -141,7 +141,7 @@ const topProjects = [
         <div class="flex flex-wrap justify-center gap-6">
           <!-- Primary Action Button -->
           <button
-            class="relative group bg-slate-900/50 cursor-pointer hover:bg-cyan-500/10 border border-cyan-500 transition-all duration-300 text-cyan-400 font-mono-space text-sm px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.2)] hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] backdrop-blur-sm"
+            class="relative group bg-slate-900/50 cursor-pointer hover:bg-cyan-500/10 border border-cyan-500 transition-all duration-300 text-cyan-400 font-mono-space text-xs px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.2)] hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] backdrop-blur-sm"
           >
             <span class="relative z-10">View Projects >></span>
             <!-- Shine sweep effect -->
@@ -154,7 +154,7 @@ const topProjects = [
           <a
             href="/resume.pdf"
             target="_blank"
-            class="relative group bg-slate-900/50 cursor-pointer hover:bg-purple-500/10 border border-purple-500 transition-all duration-300 text-purple-300 font-mono-space text-sm px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(168,85,247,0.2)] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] backdrop-blur-sm flex items-center justify-center"
+            class="relative group bg-slate-900/50 cursor-pointer hover:bg-purple-500/10 border border-purple-500 transition-all duration-300 text-purple-300 font-mono-space text-xs px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(168,85,247,0.2)] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] backdrop-blur-sm flex items-center justify-center"
           >
             <span class="relative z-10">Resume // PDF</span>
             <!-- Shine sweep effect -->
