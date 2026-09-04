@@ -6,4 +6,5 @@ import VueDevTools from "vite-plugin-vue-devtools";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), VueDevTools(), tailwindcss()],
+  base: '/portfolio.miles/',
 });
