@@ -68,7 +68,7 @@ const copyEmail = async () => {
       <div class="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500/50 via-purple-500/50 to-transparent"></div>
       
       <div class="space-y-16">
-        <div v-for="(item, index) in timeline" :key="item.year" class="relative flex flex-col md:flex-row items-start md:items-center justify-between group">
+        <div v-for="item in timeline" :key="item.year" class="relative flex flex-col md:flex-row items-start md:items-center justify-between group">
           
           <!-- Timeline Node -->
           <div 
