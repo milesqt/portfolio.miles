@@ -114,50 +114,55 @@ const topProjects = [
 
       <!-- FOREGROUND CONTENT: Clear & Professional -->
       <div class="relative z-10 max-w-4xl px-6 mt-10">
-        <!-- Clear Title -->
+        <!-- Story Title -->
         <h1
-          class="font-display font-semibold text-5xl md:text-7xl text-slate-100 mb-6 leading-tight drop-shadow-[0_0_15px_rgba(168,85,247,0.3)]"
+          class="font-display font-semibold text-5xl md:text-7xl text-slate-900 dark:text-slate-100 mb-6 leading-tight drop-shadow-[0_0_15px_rgba(168,85,247,0.3)]"
         >
-          Product Designer
-          <span class="text-purple-400 italic font-display md:text-7xl"
-            >&</span
-          >
+          Multidisciplinary
           <br />
           <span
-            class="text-transparent bg-clip-text bg-cyan-400"
-            >Front-End Engineer.</span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-teal-500 dark:from-cyan-400 dark:to-teal-300"
+            >Product Designer</span
           >
         </h1>
 
-        <!-- Clear Subtitle -->
+        <!-- Story Subtitle -->
         <p
-          class="text-sm text-slate-300 leading-relaxed mb-10 max-w-2xl mx-auto font-mono drop-shadow-md"
+          class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-10 max-w-xl mx-auto font-mono drop-shadow-md"
         >
-          Bridging the gap between expressive UI/UX design and scalable code
-          environments. Specializing in the developer handoff and
-          component-driven architecture.
+          Turning
+          <span class="text-purple-700 dark:text-purple-300 font-semibold"
+            >ideas</span
+          >,
+          <span class="text-pink-600 dark:text-pink-400 font-semibold"
+            >visuals</span
+          >, and
+          <span class="text-cyan-700 dark:text-cyan-300 font-semibold"
+            >code</span
+          >
+          into meaningful digital experiences.
         </p>
 
         <div class="flex flex-wrap justify-center gap-6">
           <!-- Primary Action Button -->
-          <button
-            class="relative group bg-slate-900/50 cursor-pointer hover:bg-cyan-500/10 border border-cyan-500 transition-all duration-300 text-cyan-400 font-mono-space text-xs px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.2)] hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] backdrop-blur-sm"
+          <a
+            href="#projects"
+            class="relative group bg-white/60 dark:bg-slate-900/50 cursor-pointer hover:bg-cyan-500/10 border border-cyan-500 transition-all duration-300 text-cyan-700 dark:text-cyan-400 font-mono-space text-xs px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(6,182,212,0.2)] hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] backdrop-blur-sm"
           >
-            <span class="relative z-10">View Projects >></span>
+            <span class="relative z-10">Explore Works >></span>
             <!-- Shine sweep effect -->
             <div
               class="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-cyan-400/20 to-transparent transition-transform duration-700 ease-in-out"
             ></div>
-          </button>
+          </a>
 
           <!-- Resume Button -->
           <a
-            href="/resume.pdf"
+            href="/portfolio.miles/Erica%20Miles%20P.%20Magana%20-%20Resume.pdf"
             target="_blank"
-            class="relative group bg-slate-900/50 cursor-pointer hover:bg-purple-500/10 border border-purple-500 transition-all duration-300 text-purple-300 font-mono-space text-sm px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(168,85,247,0.2)] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] backdrop-blur-sm flex items-center justify-center"
+            class="relative group bg-white/60 dark:bg-slate-900/50 cursor-pointer hover:bg-purple-500/10 border border-purple-500 transition-all duration-300 text-purple-700 dark:text-purple-300 font-mono-space text-xs px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(168,85,247,0.2)] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] backdrop-blur-sm flex items-center justify-center"
           >
             <span class="relative z-10">Resume // PDF</span>
-            <!-- Shine sweep effect -->
             <div
               class="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-purple-400/20 to-transparent transition-transform duration-700 ease-in-out"
             ></div>
