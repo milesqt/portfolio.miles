@@ -113,7 +113,7 @@ onUnmounted(() => {
           <a href="/" class="hover:text-cyan-400 hover:drop-shadow-[0_0_8px_#22d3ee] transition-all">Home</a>
           <a href="/portfolio.miles/works" class="hover:text-purple-400 hover:drop-shadow-[0_0_8px_#c084fc] transition-all">Work</a>
           <a href="/portfolio.miles/about" class="hover:text-cyan-400 hover:drop-shadow-[0_0_8px_#22d3ee] transition-all">About</a>
-          <a href="/portfolio.miles/playground" class="hover:text-cyan-400 hover:drop-shadow-[0_0_8px_#22d3ee] transition-all">Playground</a>
+          <!-- <a href="/portfolio.miles/playground" class="hover:text-cyan-400 hover:drop-shadow-[0_0_8px_#22d3ee] transition-all">Playground</a> -->
         </nav>
 
         <!-- Mobile Techno-Magic Button -->
@@ -210,7 +210,7 @@ onUnmounted(() => {
     <footer class="border-t py-6 text-center relative overflow-hidden z-10 mt-auto transition-colors duration-500" :class="isDarkMode ? 'border-slate-900/60' : 'border-slate-200'">
       <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-24 blur-[40px] pointer-events-none transition-colors duration-500" :class="isDarkMode ? 'bg-purple-900/10' : 'bg-purple-400/15'"></div>
       <p class="font-mono-space text-xs relative z-10 uppercase tracking-widest transition-colors" :class="isDarkMode ? 'text-slate-600' : 'text-slate-400'">
-        [System_v4.0.0] // Crafted with Vue & Tailwind
+        [System_v1.0.0] // Crafted with Magic & Code
       </p>
     </footer>
 
