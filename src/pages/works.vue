@@ -1,142 +1,155 @@
 <template>
-  <div class="max-w-5xl mx-auto px-6 py-32 space-y-32">
+  <div class="max-w-6xl mx-auto px-6 py-32 space-y-40">
     
-    <!-- Page Header -->
-    <section class="text-center">
-      <!-- <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-700 dark:text-cyan-300 font-mono-space text-xs uppercase tracking-widest mb-6">
-        <span class="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
-        System Directory // Projects
-      </div> -->
-      <h1 class="font-display text-5xl md:text-6xl text-slate-900 dark:text-slate-100 mb-6">
-        Selected Archives
+    <!-- Page Header with Added Bottom Margin -->
+    <section class="text-center max-w-2xl mx-auto mb-30">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 font-mono-space text-xs uppercase tracking-widest mb-6">
+        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+        System Directory // Archives
+      </div>
+      <h1 class="font-display text-5xl md:text-6xl text-slate-100 mb-6 drop-shadow-sm">
+        Selected Works
       </h1>
-      <p class="text-slate-600 dark:text-slate-400 max-w-xl mx-auto font-mono">
+      <p class="text-slate-400 font-mono leading-relaxed">
         A curated collection of digital experiences, bridging visual aesthetics with functional engineering.
       </p>
     </section>
 
-    <!-- 01. KONEKTALAW (Anchor Case Study) -->
-    <section id="konektalaw" class="relative group">
-      <div class="absolute -inset-4 bg-gradient-to-r from-cyan-500/5 to-purple-500/5 rounded-[3rem] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none blur-xl"></div>
-      
-      <div class="relative bg-white/70 dark:bg-slate-900/60 border border-slate-300 dark:border-slate-700 rounded-[2rem] p-8 md:p-12 backdrop-blur-sm shadow-lg overflow-hidden">
-        <!-- Decoration -->
-        <div class="absolute top-0 right-0 w-32 h-32 border-t-2 border-r-2 border-cyan-500/30 rounded-tr-[2rem] opacity-50 pointer-events-none"></div>
-
-        <div class="mb-10">
-          <h2 class="font-display text-4xl text-slate-900 dark:text-slate-100 mb-2">KonektaLaw</h2>
-          <p class="font-mono-space text-purple-600 dark:text-purple-400 text-sm tracking-widest uppercase">Legal Tech Platform</p>
+    <!-- 01. KONEKTALAW (Text Left, Image Right) -->
+    <section id="konektalaw" class="relative flex flex-col lg:flex-row gap-16 items-center">
+      <!-- Narrative (Left) -->
+      <div class="lg:w-1/2 space-y-8 relative z-10">
+        <div>
+          <h2 class="font-display text-4xl text-slate-100 mb-2">KonektaLaw</h2>
+          <p class="font-mono-space text-cyan-400 text-xs tracking-widest uppercase mb-6">Legal Technology Platform</p>
+          <p class="text-slate-300 leading-relaxed font-sans mb-4">
+            Designed and developed as part of a 4-person team, KonektaLaw makes legal assistance more approachable by connecting users with appropriate legal professionals based on their exact concerns. 
+          </p>
+          <p class="text-slate-300 leading-relaxed font-sans text-sm">
+            I led the end-to-end product design—conducting user research, surveys, and feedback loops to shape the information architecture, user flows, wireframes, and high-fidelity prototypes. After rigorous usability testing, I translated the design into a responsive frontend using HTML, CSS, and Bootstrap.
+          </p>
         </div>
 
-        <!-- Big Hero Visual Placeholder -->
-        <div class="w-full aspect-video bg-slate-200 dark:bg-slate-950/80 border border-slate-300 dark:border-slate-800 rounded-xl mb-12 flex items-center justify-center shadow-inner">
-          <span class="font-mono-space text-slate-400 dark:text-slate-600 tracking-widest">[ KonektaLaw Hero Mockup ]</span>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <!-- Metadata Column -->
-          <div class="md:col-span-1 space-y-8 font-mono-space text-sm">
-            <div>
-              <h4 class="text-slate-400 mb-2 uppercase tracking-widest text-xs">Role</h4>
-              <p class="text-slate-800 dark:text-slate-200">Product Designer, UI/UX, Branding, Developer</p>
-            </div>
-            <div>
-              <h4 class="text-slate-400 mb-2 uppercase tracking-widest text-xs">Recognition</h4>
-              <p class="text-emerald-600 dark:text-emerald-400">Best Capstone, Most Innovative, Best Web/Mobile App</p>
-            </div>
-            <div>
-              <h4 class="text-slate-400 mb-2 uppercase tracking-widest text-xs">Stack</h4>
-              <p class="text-cyan-700 dark:text-cyan-400">Vue, PWA, Figma</p>
-            </div>
+        <div class="space-y-4">
+          <div class="border-l-2 border-emerald-500 pl-4 py-1">
+            <h4 class="text-slate-100 font-mono-space uppercase tracking-widest text-[10px] mb-1">Recognition (7 Major Awards)</h4>
+            <p class="text-emerald-400 text-xs leading-relaxed">
+              Best Capstone Project, Most Innovative Project, Best Web Application, Best Mobile Application, Best Research Poster, Champion at the IT Skills Olympics, and 2nd Runner-Up at the National TechnoFest.
+            </p>
           </div>
-
-          <!-- Narrative Column -->
-          <div class="md:col-span-2 space-y-8 font-sans text-slate-700 dark:text-slate-300 leading-relaxed">
-            <div>
-              <h3 class="text-xl font-display text-slate-900 dark:text-slate-100 mb-3">The Objective</h3>
-              <p>Designed and developed as part of a 4-person team, KonektaLaw bridges the gap between legal services and accessibility. The goal was to create an intuitive platform connecting justice-seeking clients with specialized lawyers based on their exact legal needs.</p>
-            </div>
-            <div>
-              <h3 class="text-xl font-display text-slate-900 dark:text-slate-100 mb-3">The Approach</h3>
-              <p>I led the product design from the ground up—starting with brand identity and user experience flows, straight through to high-fidelity Figma designs and eventual web/PWA development. The interface required absolute clarity to reduce friction for users navigating stressful legal situations.</p>
-            </div>
+          <div class="border-l-2 border-cyan-500 pl-4 py-1">
+            <h4 class="text-slate-100 font-mono-space uppercase tracking-widest text-[10px] mb-1">Real-World Outcome</h4>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Successfully deployed and handed over to a local law firm, where their internal IT team took over active maintenance—turning it into a live production system rather than an academic prototype.
+            </p>
           </div>
         </div>
+
+        <div class="pt-2 flex flex-wrap gap-2">
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">UI/UX Design</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">HTML</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">CSS</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">Bootstrap</span>
+        </div>
+      </div>
+
+      <!-- Visual (Right) -->
+      <div class="lg:w-1/2 relative flex justify-center items-center">
+        <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full w-3/4 h-3/4 mx-auto z-0 pointer-events-none"></div>
+        <img src="/8.png" alt="KonektaLaw Mobile UI" class="relative z-10 w-full max-w-[28rem] object-contain hover:scale-105 transition-transform duration-700 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" />
       </div>
     </section>
 
-    <!-- 02. HR MANAGEMENT SYSTEM (Secondary Case Study) -->
-    <section id="empleo-hr" class="relative group">
-      <div class="relative bg-white/70 dark:bg-slate-900/40 border border-slate-300 dark:border-slate-700 rounded-tr-[4rem] rounded-bl-[4rem] rounded-tl-md rounded-br-md p-8 md:p-12 backdrop-blur-sm shadow-md">
+    <!-- 02. EMPLEO HR (Text Left, Image Right for alignment consistency) -->
+    <section id="empleo-hr" class="relative flex flex-col lg:flex-row gap-16 items-center">
+      <!-- Narrative (Left) -->
+      <div class="lg:w-1/2 space-y-8 relative z-10">
+        <div>
+          <h2 class="font-display text-4xl text-slate-100 mb-2">Empleo HR</h2>
+          <p class="font-mono-space text-purple-400 text-xs tracking-widest uppercase mb-6">HR Management SaaS Platform</p>
+          <p class="text-slate-300 leading-relaxed font-sans mb-4">
+            A comprehensive SaaS platform built to support complex administrative and employee workflows. Acting as both Product/UI/UX Designer and Full-Stack Developer, I architected the information architecture, user journeys, and responsive layouts.
+          </p>
+          <p class="text-slate-300 leading-relaxed font-sans text-sm">
+            My development scope covered full-stack feature implementation across core modules including Employee Management, Payroll, Payslips, Reimbursements, Trainee Management, Mood Tracking, and REST API integrations.
+          </p>
+        </div>
+
+        <div class="p-5 bg-slate-900/90 border border-slate-700 rounded-xl relative overflow-hidden group shadow-lg">
+          <div class="absolute top-0 left-0 w-1 h-full bg-purple-500 group-hover:shadow-[0_0_15px_#a855f7] transition-shadow"></div>
+          <h3 class="text-sm font-display text-slate-100 mb-1">Development Impact 🔥</h3>
+          <p class="text-slate-300 text-sm">Successfully completed and shipped <strong>110+ tracked development tickets</strong> in approximately three months, handling everything from component architecture and backend logic to debugging and system maintenance.</p>
+        </div>
+
+        <div class="pt-2 flex flex-wrap gap-2">
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">React.js</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">Tailwind CSS</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">Laravel</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">Supabase</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">MySQL</span>
+          <span class="font-mono-space text-[10px] text-slate-200 border border-slate-700 bg-slate-900/50 px-3 py-1.5 rounded-full">REST APIs</span>
+        </div>
+      </div>
+
+      <!-- Visual (Right) -->
+      <div class="lg:w-1/2 relative flex justify-center items-center">
+        <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 blur-3xl rounded-full w-3/4 h-3/4 mx-auto z-0 pointer-events-none"></div>
+        <img src="/5.png" alt="Empleo HR SaaS Platform" class="relative z-10 w-full max-w-[34rem] object-contain hover:scale-105 transition-transform duration-700 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" />
+      </div>
+    </section>
+
+    <!-- 03 & 04. ADDITIONAL ARCHIVES (Editorial Grid) -->
+    <section>
+      <div class="flex items-center gap-4 mb-16">
+        <div class="h-px bg-slate-800 flex-grow"></div>
+        <h3 class="font-mono-space text-slate-500 uppercase tracking-widest text-xs">Additional Archives</h3>
+        <div class="h-px bg-slate-800 flex-grow"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
         
-        <div class="flex flex-col md:flex-row gap-12 items-center">
-          <!-- Text Content -->
-          <div class="md:w-1/2 space-y-6">
-            <div>
-              <h2 class="font-display text-3xl text-slate-900 dark:text-slate-100 mb-2">HR Management System</h2>
-              <p class="font-mono-space text-cyan-700 dark:text-cyan-400 text-sm tracking-widest uppercase">SaaS Architecture</p>
-            </div>
-            
-            <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-              Designed core interfaces for a data-dense HR platform. This involved restructuring complex information architecture to create intuitive employee dashboards, mood tracking modules, engagement feeds, and administrative workflows. 
+        <!-- LiftNow PH -->
+        <div id="liftnow-ph" class="group flex flex-col">
+          <div class="relative w-full aspect-[4/3] mb-8 overflow-hidden rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center">
+            <div class="absolute inset-0 bg-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+            <img src="/4.png" alt="LiftNow PH Platform" class="w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+          </div>
+          <div>
+            <h3 class="font-display text-2xl text-slate-100 mb-1">LiftNow PH</h3>
+            <p class="font-mono-space text-[10px] text-cyan-400 mb-4 tracking-widest uppercase">Non-Profit Platform</p>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Designed and deployed a responsive web presence for an initiative supporting educational assistance for Filipino scholars. Guided the project entirely from early Figma prototypes to live WordPress deployment.
             </p>
-            <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-              Beyond design, I contributed to full-stack implementation across responsive interfaces, tackling everything from trainee management to robust payroll and reimbursement workflows.
-            </p>
-
-            <div class="flex flex-wrap gap-2 pt-4">
-              <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-300 bg-slate-200 dark:bg-slate-800 px-3 py-1.5 rounded-md border border-slate-300 dark:border-slate-700">UI/UX</span>
-              <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-300 bg-slate-200 dark:bg-slate-800 px-3 py-1.5 rounded-md border border-slate-300 dark:border-slate-700">SaaS Dashboards</span>
-              <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-300 bg-slate-200 dark:bg-slate-800 px-3 py-1.5 rounded-md border border-slate-300 dark:border-slate-700">Information Architecture</span>
+            <div class="flex gap-3 text-slate-400">
+              <span class="font-mono-space text-[10px] uppercase">Web Design</span>
+              <span class="font-mono-space text-[10px] uppercase">Figma</span>
+              <span class="font-mono-space text-[10px] uppercase">WordPress</span>
             </div>
           </div>
+        </div>
 
-          <!-- Visual Placeholder -->
-          <div class="md:w-1/2 w-full aspect-square bg-slate-200 dark:bg-slate-950/80 border border-slate-300 dark:border-slate-800 rounded-2xl flex flex-col items-center justify-center shadow-inner gap-4">
-             <span class="font-mono-space text-slate-400 dark:text-slate-600 tracking-widest">[ Dashboard UI Mockup ]</span>
+        <!-- Trading Education -->
+        <div id="trading-edu" class="group flex flex-col">
+          <div class="relative w-full aspect-[4/3] mb-8 overflow-hidden rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center">
+            <div class="absolute inset-0 bg-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10"></div>
+            <img src="/6.png" alt="Trading Education UI" class="w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+          </div>
+          <div>
+            <h3 class="font-display text-2xl text-slate-100 mb-1">Trading Education</h3>
+            <p class="font-mono-space text-[10px] text-purple-400 mb-4 tracking-widest uppercase">Interactive Prototype</p>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Designed an interactive landing page concept for a beginner-focused trading platform. The focus was heavily on establishing a clear visual hierarchy while exploring advanced micro-interactions and motion design.
+            </p>
+            <div class="flex gap-3 text-slate-400">
+              <span class="font-mono-space text-[10px] uppercase">Prototyping</span>
+              <span class="font-mono-space text-[10px] uppercase">UX Motion</span>
+              <span class="font-mono-space text-[10px] uppercase">Visual Hierarchy</span>
+            </div>
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- 03 & 04. GRID LAYOUT FOR LIFTNOW & TRADING -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      
-      <!-- LiftNow PH -->
-      <section id="liftnow-ph" class="bg-white/70 dark:bg-slate-900/40 border border-slate-300 dark:border-slate-700 p-8 rounded-2xl backdrop-blur-sm shadow-sm flex flex-col">
-        <div class="w-full h-48 bg-slate-200 dark:bg-slate-950/80 rounded-xl mb-6 flex items-center justify-center border border-slate-300 dark:border-slate-800">
-           <span class="font-mono-space text-slate-400 dark:text-slate-600 text-xs tracking-widest">[ LiftNow PH Screenshot ]</span>
-        </div>
-        <h3 class="font-display text-2xl text-slate-900 dark:text-slate-100 mb-1">LiftNow PH</h3>
-        <p class="font-mono-space text-xs text-purple-600 dark:text-purple-400 mb-4 tracking-widest uppercase">Non-Profit Platform</p>
-        <p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed mb-6 flex-grow">
-          Designed and deployed a single-page platform for an initiative supporting educational assistance for Filipino scholars. Guided the project entirely from early Figma prototypes to live deployment via WordPress.
-        </p>
-        <div class="flex gap-2 mt-auto">
-          <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-400">Web Design</span>
-          <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-400">• Figma</span>
-          <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-400">• WordPress</span>
-        </div>
-      </section>
-
-      <!-- Trading Education -->
-      <section id="trading-edu" class="bg-white/70 dark:bg-slate-900/40 border border-slate-300 dark:border-slate-700 p-8 rounded-2xl backdrop-blur-sm shadow-sm flex flex-col">
-        <div class="w-full h-48 bg-slate-200 dark:bg-slate-950/80 rounded-xl mb-6 flex items-center justify-center border border-slate-300 dark:border-slate-800">
-           <span class="font-mono-space text-slate-400 dark:text-slate-600 text-xs tracking-widest">[ Trading Prototype UI ]</span>
-        </div>
-        <h3 class="font-display text-2xl text-slate-900 dark:text-slate-100 mb-1">Trading Education</h3>
-        <p class="font-mono-space text-xs text-cyan-700 dark:text-cyan-400 mb-4 tracking-widest uppercase">Interactive Prototype</p>
-        <p class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed mb-6 flex-grow">
-          Designed an interactive landing page concept for a beginner-focused trading platform. The focus was heavily on establishing a clear visual hierarchy while exploring advanced micro-interactions and motion design.
-        </p>
-        <div class="flex gap-2 mt-auto">
-          <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-400">Prototyping</span>
-          <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-400">• UX Motion</span>
-          <span class="font-mono-space text-[10px] text-slate-600 dark:text-slate-400">• Visual Hierarchy</span>
-        </div>
-      </section>
-
-    </div>
   </div>
 </template>
