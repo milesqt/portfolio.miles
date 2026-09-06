@@ -90,7 +90,7 @@ const featuredProjects = [
           </router-link>
 
           <a
-            href="/portfolio.miles/Erica%20Miles%20P.%20Magana%20-%20Resume.pdf"
+            href="/portfolio.miles/Erica%20Miles%20Magana%20-%20Resume.pdf"
             target="_blank"
             class="relative group bg-slate-900/50 hover:bg-purple-500/10 border border-purple-500 transition-all duration-300 text-purple-300 font-mono-space text-xs px-8 py-4 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(168,85,247,0.2)] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] backdrop-blur-sm flex items-center justify-center"
           >
