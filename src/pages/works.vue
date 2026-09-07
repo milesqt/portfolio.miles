@@ -45,7 +45,7 @@
             <h4 class="text-slate-100 font-display text-sm mb-1">Outcome</h4>
             <p class="text-slate-400 text-xs">Handed over to a local law firm's internal IT team.</p>
           </div>
-          <!-- Awards Box (Expanded and legible) -->
+          <!-- Awards Box -->
           <div class="col-span-2 bg-emerald-900/10 border border-emerald-500/20 p-4 rounded-xl flex gap-4 items-start transition-colors">
             <svg class="w-6 h-6 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
             <div>
@@ -57,11 +57,19 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap items-center gap-4 mt-6">
+        <div class="flex flex-col gap-4 mt-6">
           <!-- Terminal Stack -->
           <div class="flex items-center gap-3 bg-slate-950 border border-slate-800 rounded-md px-4 py-2.5 w-max">
             <span class="text-purple-500 font-mono-space text-xs">>_</span>
-            <span class="text-slate-300 font-mono-space text-[10px] tracking-widest uppercase">Figma <span class="text-slate-600 mx-1">|</span> Bootstrap <span class="text-slate-600 mx-1">|</span> HTML <span class="text-slate-600 mx-1">|</span> CSS</span>
+            <span class="text-slate-300 font-mono-space text-[10px] tracking-widest uppercase">Figma <span class="text-slate-600 mx-1">|</span> Bootstrap <span class="text-slate-600 mx-1">|</span> HTML <span class="text-slate-600 mx-1">|</span> CSS <span class="text-slate-600 mx-1">|</span> Laravel</span>
+          </div>
+          
+          <!-- Confidentiality Note -->
+          <div class="flex items-start gap-2 bg-slate-900/40 border border-slate-800/60 rounded px-3 py-2 w-max max-w-full">
+            <svg class="w-3.5 h-3.5 text-slate-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+            <p class="text-slate-400 font-mono text-[10px] uppercase tracking-wider leading-relaxed">
+              Visual assets and live links are unavailable due<br class="hidden md:block" /> to client confidentiality and project handoff.
+            </p>
           </div>
         </div>
       </div>
@@ -69,12 +77,12 @@
       <!-- Visual (Right) -->
       <div class="lg:w-1/2 relative flex justify-center items-center order-2">
         <div class="absolute top-8 right-4 lg:-right-4 bg-slate-900/80 backdrop-blur-md border border-cyan-500/30 px-4 py-3 rounded-xl z-20 flex flex-col shadow-xl">
-          <span class="font-mono-space text-[10px] text-cyan-400 uppercase tracking-widest mb-1">Interface View</span>
-          <span class="text-[11px] text-slate-300 font-sans">Client-facing lawyer directory.</span>
+          <span class="font-mono-space text-[10px] text-cyan-400 uppercase tracking-widest mb-1">Responsive View</span>
+          <span class="text-[11px] text-slate-300 font-sans">Desktop & Mobile interfaces.</span>
         </div>
         
         <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full w-3/4 h-3/4 mx-auto z-0 pointer-events-none"></div>
-        <img src="/8.png" alt="KonektaLaw Mobile UI" class="relative z-10 w-full max-w-[28rem] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" />
+        <img src="/konektalaw-mockup.png" alt="KonektaLaw Responsive Mockup" class="relative z-10 w-full max-w-[34rem] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:scale-105 transition-transform duration-700" />
       </div>
     </section>
 
@@ -89,7 +97,7 @@
         </div>
 
         <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 blur-3xl rounded-full w-3/4 h-3/4 mx-auto z-0 pointer-events-none"></div>
-        <img src="/5.png" alt="Empleo HR SaaS Platform" class="relative z-10 w-full max-w-[34rem] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]" />
+        <img src="/5.png" alt="Empleo HR SaaS Platform" class="relative z-10 w-full max-w-[34rem] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:scale-105 transition-transform duration-700" />
       </div>
 
       <!-- Narrative (Right) -->
@@ -110,12 +118,12 @@
           <div class="bg-slate-900/60 border border-slate-700/50 p-4 rounded-xl">
             <svg class="w-5 h-5 text-cyan-400 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
             <h4 class="text-slate-100 font-display text-sm mb-1">My Role</h4>
-            <p class="text-slate-400 text-xs">UI/UX Design · Initial Front-End Development</p>
+            <p class="text-slate-400 text-xs">UI/UX Design</p>
           </div>
           <div class="bg-slate-900/60 border border-slate-700/50 p-4 rounded-xl">
             <svg class="w-5 h-5 text-purple-400 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg>
             <h4 class="text-slate-100 font-display text-sm mb-1">Core Modules</h4>
-            <p class="text-slate-400 text-xs">Payroll · Payslips · Trainees · Mood Tracking · Engagement Feeds</p>
+            <p class="text-slate-400 text-xs">Dashboard · Onboarding · Freedom Wall · Mood Meter · Landing Page</p>
           </div>
           <div class="col-span-2 bg-pink-900/10 border border-pink-500/20 p-4 rounded-xl flex gap-4 items-center transition-colors">
             <div class="w-10 h-10 rounded-full bg-pink-500/20 flex items-center justify-center flex-shrink-0 border border-pink-500/30">
@@ -123,17 +131,17 @@
             </div>
             <div>
               <h4 class="text-pink-300 font-display text-sm mb-1">Initial Product Contribution</h4>
-              <p class="text-pink-400/70 text-[11px] leading-relaxed">Designed and developed core interfaces during the platform's early iteration.</p>
+              <p class="text-pink-400/70 text-[11px] leading-relaxed">Designed core interfaces during the platform's early iteration, establishing the initial visual direction and user experience.</p>
             </div>
           </div>
         </div>
 
         <div class="flex flex-wrap items-center gap-4 mt-6">
-          <!-- Terminal Stack -->
+          <!-- Terminal Stack (Updated to focus on design tools) -->
           <div class="flex items-center gap-3 bg-slate-950 border border-slate-800 rounded-md px-4 py-2.5 w-max max-w-full overflow-x-auto overflow-y-hidden no-scrollbar">
             <span class="text-cyan-500 font-mono-space text-xs flex-shrink-0">>_</span>
             <span class="text-slate-300 font-mono-space text-[10px] tracking-widest uppercase whitespace-nowrap">
-              REACT.JS <span class="text-slate-600 mx-1">|</span> TAILWIND <span class="text-slate-600 mx-1">|</span> LARAVEL
+              FIGMA <span class="text-slate-600 mx-1">|</span> UI/UX <span class="text-slate-600 mx-1">|</span> PROTOTYPING
             </span>
           </div>
 
@@ -141,12 +149,24 @@
           <a 
             href="https://www.figma.com/proto/REEfrwi08MuQ6Wib3NC6Uz/Design---Prototype-Portfolio?node-id=34-55032&starting-point-node-id=34%3A55032&show-proto-sidebar=1" 
             target="_blank" 
-            class="relative group/btn bg-slate-900/50 hover:bg-pink-500/10 border border-pink-500 transition-all duration-300 text-pink-300 font-mono-space text-xs px-6 py-2 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_20px_rgba(236,72,153,0.2)] hover:shadow-[0_0_30px_rgba(236,72,153,0.4)] backdrop-blur-sm inline-flex items-center gap-2"
+            class="relative group/btn bg-slate-900/50 hover:bg-pink-500/10 border border-pink-500 transition-all duration-300 text-pink-300 font-mono-space text-xs px-5 py-2.5 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_15px_rgba(236,72,153,0.15)] hover:shadow-[0_0_25px_rgba(236,72,153,0.3)] backdrop-blur-sm inline-flex items-center gap-1.5"
           >
-            <span class="relative z-10 flex items-center gap-2">
-              Admin Prototype <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+            <span class="relative z-10 flex items-center gap-1.5">
+              Admin Portal <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
             </span>
             <div class="absolute inset-0 -translate-x-full group-hover/btn:translate-x-full bg-gradient-to-r from-transparent via-pink-400/20 to-transparent transition-transform duration-700 ease-in-out"></div>
+          </a>
+
+          <!-- Figma Employee Prototype Link -->
+          <a 
+            href="https://www.figma.com/proto/REEfrwi08MuQ6Wib3NC6Uz/Design---Prototype-Portfolio?node-id=34-26590&starting-point-node-id=34%3A63209" 
+            target="_blank" 
+            class="relative group/btn bg-slate-900/50 hover:bg-cyan-500/10 border border-cyan-500 transition-all duration-300 text-cyan-400 font-mono-space text-xs px-5 py-2.5 rounded-tr-2xl rounded-bl-2xl rounded-tl-sm rounded-br-sm overflow-hidden shadow-[0_0_15px_rgba(6,182,212,0.15)] hover:shadow-[0_0_25px_rgba(6,182,212,0.3)] backdrop-blur-sm inline-flex items-center gap-1.5"
+          >
+            <span class="relative z-10 flex items-center gap-1.5">
+              Employee Portal <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+            </span>
+            <div class="absolute inset-0 -translate-x-full group-hover/btn:translate-x-full bg-gradient-to-r from-transparent via-cyan-400/20 to-transparent transition-transform duration-700 ease-in-out"></div>
           </a>
         </div>
       </div>
