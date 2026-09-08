@@ -16,10 +16,10 @@
     </section>
 
     <!-- 01. KONEKTALAW -->
-    <section id="konektalaw" class="relative flex flex-col lg:flex-row gap-16 items-center">
+    <section id="konektalaw" class="relative flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
       
       <!-- Narrative (Left) -->
-      <div class="lg:w-1/2 space-y-6 relative z-10 order-1">
+      <div class="w-full lg:w-1/2 space-y-6 relative z-10 order-2 lg:order-1">
         <!-- Header -->
         <div>
           <h2 class="font-display text-4xl text-slate-100 mb-2">KonektaLaw</h2>
@@ -32,7 +32,7 @@
         </p>
 
         <!-- Icon Data Grid -->
-        <div class="grid grid-cols-2 gap-4 pt-2">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
           <!-- Role Box -->
           <div class="bg-slate-900/60 border border-slate-700/50 p-4 rounded-xl">
             <svg class="w-5 h-5 text-purple-400 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
@@ -46,8 +46,8 @@
             <p class="text-slate-400 text-xs">Handed over to a local law firm's internal IT team.</p>
           </div>
           <!-- Awards Box -->
-          <div class="col-span-2 bg-emerald-900/10 border border-emerald-500/20 p-4 rounded-xl flex gap-4 items-start transition-colors">
-            <svg class="w-6 h-6 text-emerald-400 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
+          <div class="col-span-1 sm:col-span-2 bg-emerald-900/10 border border-emerald-500/20 p-4 rounded-xl flex flex-col sm:flex-row gap-4 items-start transition-colors">
+            <svg class="w-6 h-6 text-emerald-400 flex-shrink-0 sm:mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>
             <div>
               <h4 class="text-emerald-300 font-display text-sm mb-1">7 Major Awards</h4>
               <p class="text-emerald-400/90 text-[11px] leading-relaxed">
@@ -58,34 +58,36 @@
         </div>
 
         <div class="flex flex-col gap-4 mt-6">
-          <!-- Terminal Stack -->
-          <div class="flex items-center gap-3 bg-slate-950 border border-slate-800 rounded-md px-4 py-2.5 w-max">
-            <span class="text-purple-500 font-mono-space text-xs">>_</span>
-            <span class="text-slate-300 font-mono-space text-[10px] tracking-widest uppercase">Figma <span class="text-slate-600 mx-1">|</span> Bootstrap <span class="text-slate-600 mx-1">|</span> HTML <span class="text-slate-600 mx-1">|</span> CSS <span class="text-slate-600 mx-1">|</span> Laravel</span>
+          <!-- Terminal Stack (Added responsive wrapping/scrolling) -->
+          <div class="flex items-center gap-3 bg-slate-950 border border-slate-800 rounded-md px-4 py-2.5 w-max max-w-full overflow-x-auto overflow-y-hidden no-scrollbar">
+            <span class="text-purple-500 font-mono-space text-xs flex-shrink-0">>_</span>
+            <span class="text-slate-300 font-mono-space text-[10px] tracking-widest uppercase whitespace-nowrap">
+              Figma <span class="text-slate-600 mx-1">|</span> Bootstrap <span class="text-slate-600 mx-1">|</span> HTML <span class="text-slate-600 mx-1">|</span> CSS <span class="text-slate-600 mx-1">|</span> Laravel
+            </span>
           </div>
           
-          <!-- Confidentiality Note -->
+          <!-- Confidentiality Note (Made max-w-full so it doesn't break boundaries) -->
           <div class="flex items-start gap-2 bg-slate-900/40 border border-slate-800/60 rounded px-3 py-2 w-max max-w-full">
             <svg class="w-3.5 h-3.5 text-slate-500 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
             <p class="text-slate-400 font-mono text-[10px] uppercase tracking-wider leading-relaxed">
-              Visual assets and live links are unavailable due<br class="hidden md:block" /> to client confidentiality and project handoff.
+              Visual assets and live links are unavailable due<br class="hidden sm:block" /> to client confidentiality and project handoff.
             </p>
           </div>
         </div>
       </div>
 
-      <!-- Visual (Right) -->
-      <div class="lg:w-1/2 relative flex justify-center items-center order-2">
-        <div class="absolute top-8 right-4 lg:-right-4 bg-slate-900/80 backdrop-blur-md border border-cyan-500/30 px-4 py-3 rounded-xl z-20 flex flex-col shadow-xl">
-          <span class="font-mono-space text-[10px] text-cyan-400 uppercase tracking-widest mb-1">Responsive View</span>
-          <span class="text-[11px] text-slate-300 font-sans">Desktop & Mobile interfaces.</span>
+      <!-- Visual (Right - Moved to display on top for mobile) -->
+      <div class="w-full lg:w-1/2 relative flex justify-center items-center order-1 lg:order-2 mb-4 lg:mb-0">
+        <!-- Glass card position adjusted to not clip off mobile screens -->
+        <div class="absolute -top-4 right-0 lg:top-8 lg:-right-4 bg-slate-900/80 backdrop-blur-md border border-cyan-500/30 px-3 py-2 lg:px-4 lg:py-3 rounded-xl z-20 flex flex-col shadow-xl">
+          <span class="font-mono-space text-[9px] lg:text-[10px] text-cyan-400 uppercase tracking-widest mb-1">Responsive View</span>
+          <span class="text-[10px] lg:text-[11px] text-slate-300 font-sans">Desktop & Mobile interfaces.</span>
         </div>
         
         <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full w-3/4 h-3/4 mx-auto z-0 pointer-events-none"></div>
         <img src="/konektalaw-mockup.png" alt="KonektaLaw Responsive Mockup" class="relative z-10 w-full max-w-[34rem] object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:scale-105 transition-transform duration-700" />
       </div>
     </section>
-
     <!-- 02. EMPLEO HR -->
     <section id="empleo-hr" class="relative flex flex-col lg:flex-row gap-16 items-center">
       
