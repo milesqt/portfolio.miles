@@ -132,7 +132,6 @@ onUnmounted(() => {
           v-show="isMenuOpen"
           class="md:hidden flex flex-col items-center py-6 space-y-6 font-mono-space text-xs uppercase tracking-widest border-t transition-colors text-slate-300 border-purple-500/30"
         >
-          <a href="/" @click="closeMenu" class="hover:text-cyan-400 transition-all">Home</a>
           <router-link to="/" @click="closeMenu" class="hover:text-cyan-400 transition-all">Home</router-link>
           <router-link to="/works" @click="closeMenu" class="hover:text-purple-400 transition-all">Work</router-link>
           <router-link to="/about" @click="closeMenu" class="hover:text-cyan-400 transition-all">About</router-link>
