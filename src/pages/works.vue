@@ -3,7 +3,11 @@
     
     <!-- Page Header -->
     <section class="text-center max-w-2xl mx-auto mb-30">
-      <h1 class="font-display text-5xl md:text-6xl text-slate-100 mb-6 drop-shadow-sm">
+      <!-- <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 font-mono-space text-xs uppercase tracking-widest mb-6 shadow-[0_0_15px_rgba(168,85,247,0.2)]">
+        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+        System Directory // Archives
+      </div> -->
+      <h1 class="font-display text-5xl md:text-6xl bg-gradient-to-r from-cyan-400 to-purple-400 text-transparent bg-clip-text mb-6">
         Selected Works
       </h1>
       <p class="text-slate-400 font-mono leading-relaxed">
