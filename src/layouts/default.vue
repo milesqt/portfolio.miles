@@ -84,13 +84,11 @@ onUnmounted(() => {
         :class="isScrolled || isMenuOpen ? 'py-2.5' : ''"
       >
         <!-- Logo Marker -->
-        <a
-          href="/"
-          @click="closeMenu"
-          class="font-display font-bold text-2xl transition-colors drop-shadow-[0_0_10px_rgba(6,182,212,0.4)] text-slate-100 hover:text-cyan-400"
+        <h2
+          class="font-display font-bold text-2xl transition-colors drop-shadow-[0_0_10px_rgba(6,182,212,0.4)] text-slate-100"
         >
           erica miles<span class="text-purple-500">.</span>
-        </a>
+        </h2>
 
         <!-- Desktop Horizontal Links -->
         <nav class="hidden md:flex items-center gap-10 font-mono-space text-xs uppercase tracking-widest transition-colors text-slate-300">
